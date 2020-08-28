@@ -1,0 +1,46 @@
+{
+  "stac_version": "0.9.0",
+  "stac_extensions": [],
+  "id": "test-collection",
+  "title": "test-collection",
+  "description": "Example collection to post to API",
+  "keywords": [],
+  "license": "proprietary",
+  "providers": [],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          13.330610521659846,
+          52.363530645448044,
+          13.756192207996433,
+          52.64467528345354
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2018-03-03T10:20:19Z",
+          "2018-03-03T10:20:19Z"
+        ]
+      ]
+    }
+  },
+  "summaries": {},
+  "properties": {},
+  "links": [
+    {
+      "href": "http://localhost:9090/collections/test-collection",
+      "rel": "self",
+      "type": "application/json",
+      "title": null
+    },
+    {
+      "href": "http://localhost:9090",
+      "rel": "root",
+      "type": "application/json",
+      "title": null
+    }
+  ]
+}
