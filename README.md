@@ -1,5 +1,7 @@
 # STAC MINT
 
+We're using [Franklin](https://azavea.github.io/franklin/)
+
 ## Quickstart
 
 1. Start services
