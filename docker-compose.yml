@@ -31,4 +31,4 @@ services:
     links:
       - database:database.service.internal
     ports:
-      - "9090:9090"
+      - "9000:9090"
