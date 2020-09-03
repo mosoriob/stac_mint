@@ -18,7 +18,7 @@ services:
     depends_on:
       database:
         condition: service_healthy
-    command: ["serve", "--with-transactions"]
+    command: ["serve", "--with-transactions", "--api-host", "d.mint.isi.edu", "--external-port", "80"]
     volumes:
       - ./:/opt/franklin/
     environment:
@@ -28,6 +28,8 @@ services:
       - POSTGRES_USER=franklin
       - POSTGRES_PASSWORD=franklin
       - AWS_REGION=us-east-1
+      - API_HOST=d.mint.isi.edu
+ 
     links:
       - database:database.service.internal
     ports:

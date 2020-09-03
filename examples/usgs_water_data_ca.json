@@ -1,0 +1,46 @@
+{
+  "stac_version": "0.9.0",
+  "stac_extensions": [],
+  "id": "usgs_water_ca",
+  "title": "Water Data US from USGS California",
+  "description": "The U.S. Geological Survey's National Water-Use Information Program is responsible for compiling and disseminating the nation's water-use data. The USGS works in cooperation with local, State, and Federal environmental agencies to collect water-use information. USGS compiles these data to produce water-use information aggregated at the county, state, and national levels. Every five years, data at the county level are compiled into a national water-use data system and state-level data are published in a national circular. Over the history of these circulars, the water-use categories have had some changes. Purpose: The Water Use Program analyzes the source, use, and disposition of water resources at local, state, and national levels while repling to water-use information requests from the public and documenting the trends in water use in the United States. The Water Use Program cooperates with state and local agencies on projects of special interest and develops water-use data bases and to publish local, state, and national water-use data reports.",
+  "keywords": [],
+  "license": "proprietary",
+  "providers": [],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -124.409591,
+          32.534156,
+          -114.131211,
+          42.009518
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2009-01-01T00:00:00Z",
+          null
+        ]
+      ]
+    }
+  },
+  "summaries": {},
+  "properties": {},
+  "links": [
+    {
+      "href": "http://d.mint.isi.edu/collections/usgs_water_ca",
+      "rel": "self",
+      "type": "application/json",
+      "title": null
+    },
+    {
+      "href": "http://d.mint.isi.edu",
+      "rel": "root",
+      "type": "application/json",
+      "title": null
+    }
+  ]
+}
